@@ -5,7 +5,7 @@ email = raw_input("Please provide an email address for the organizer. ")
 
 raw_input("\nPlease enter True or False for the following statements.")
 # Asks questions regarding accomodations to provide inputs to generate accessibility statement.
-mobility = raw_input("Physical access is available for mobility impaired. ")
+mobility = raw_input("\nPhysical access is available for mobility impaired. ")
 if mobility == True:
     mobility = 'is'
 elif mobility == 'true':
@@ -18,9 +18,9 @@ elif mobility == 'True':
     mobility = 'is'
 else:
     mobility = 'is not'
-    raw_input("Please consider making your events more accessible to mobility impaired colleagues in future.")
+    raw_input("\nPlease consider making your events more accessible to mobility impaired colleagues in future.")
 
-hearing = raw_input("Accomodations are available for hearing impaired. ")
+hearing = raw_input("\nAccomodations are available for hearing impaired. ")
 if hearing == True:
     hearing = 'are'
 elif hearing == 'true':
@@ -33,9 +33,9 @@ elif hearing == 'True':
     hearing = 'are'
 else:
     hearing = 'are not'
-    raw_input("Please consider making your events more accessible for your hearing impaired colleagues in future.")
+    raw_input("\nPlease consider making your events more accessible for your hearing impaired colleagues in future.")
 
-vision = raw_input("Accomodations are available for visually impaired. ")
+vision = raw_input("\nAccomodations are available for visually impaired. ")
 if vision == True:
     vision = 'are'
 elif vision == 'true':
@@ -48,9 +48,9 @@ elif vision == 'True':
     vision = 'are'
 else:
     vision = 'are not'
-    raw_input("Please consider making your events more accessible for your vision impaired colleagues in future.")
+    raw_input("\nPlease consider making your events more accessible for your vision impaired colleagues in future.")
 
-remote = raw_input("Remote participation is available for those who cannot otherwise attend. ")
+remote = raw_input("\nRemote participation is available for those who cannot otherwise attend. ")
 if remote == True:
     remote = 'is'
 elif remote == 'true':
@@ -63,9 +63,9 @@ elif remote == 'True':
     remote = 'is'
 else:
     remote = 'is not'
-    raw_input("Please consider making your events more accessible for your colleagues who cannot otherwise attend in future.")
+    raw_input("\nPlease consider making your events more accessible for your colleagues who cannot otherwise attend in future.")
     
-lactation = raw_input("Lactation facilities are available. ")
+lactation = raw_input("\nLactation facilities are available. ")
 if lactation == True:
     lactation = 'are'
 elif lactation == 'true':
@@ -78,7 +78,7 @@ elif lactation == 'True':
     lactation = 'are'
 else:
     lactation = 'are not'
-    raw_input("Please consider providing lactation facilities for your colleagues who may require such accomodations.")
+    raw_input("\nPlease consider providing lactation facilities for your colleagues who may require such accomodations.")
 
 raw_input("\nThank you for integrating accessibility accomodations into your planning. Please press 'Enter' to generate your accessibility statement.")
 
