@@ -17,7 +17,7 @@ elif mobility == 't':
 elif mobility == 'True':
     mobility = 'is'
 else:
-    mobility = 'is not'
+    mobility = 'is unfortunately not'
     raw_input("\nPlease consider making your events more accessible to mobility impaired colleagues in future.")
 
 hearing = raw_input("\nAccommodations are available for hearing impaired. ")
@@ -32,7 +32,7 @@ elif hearing == 't':
 elif hearing == 'True':
     hearing = 'are'
 else:
-    hearing = 'are not'
+    hearing = 'are unfortunately not'
     raw_input("\nPlease consider making your events more accessible for your hearing impaired colleagues in future.")
 
 vision = raw_input("\nAccommodations are available for visually impaired. ")
@@ -47,7 +47,7 @@ elif vision == 't':
 elif vision == 'True':
     vision = 'are'
 else:
-    vision = 'are not'
+    vision = 'are unfortunately not'
     raw_input("\nPlease consider making your events more accessible for your vision impaired colleagues in future.")
 
 remote = raw_input("\nRemote participation is available for those who cannot otherwise attend. ")
@@ -62,7 +62,7 @@ elif remote == 't':
 elif remote == 'True':
     remote = 'is'
 else:
-    remote = 'is not'
+    remote = 'is unfortunately not'
     raw_input("\nPlease consider making your events more accessible for your colleagues who cannot otherwise attend in future.")
     
 lactation = raw_input("\nLactation facilities are available. ")
@@ -77,12 +77,11 @@ elif lactation == 't':
 elif lactation == 'True':
     lactation = 'are'
 else:
-    lactation = 'are not'
+    lactation = 'are unfortunately not'
     raw_input("\nPlease consider providing lactation facilities for your colleagues who may require such accommodations.")
 
 raw_input("\nThank you for integrating accessibility accommodations into your planning. Please press 'Enter' to generate your accessibility statement.")
 
 # Generate accessibility statement.
 print("\nAccessibility Statement")
-statement = textwrap.wrap("\nWe have made an effort to make our event as accessible to chronically ill or disabled colleagues as possible.  For this event, physical access " + mobility + " available, accommodations for hearing impairments " + hearing + " available, and accommodations for visually impaired colleagues " + vision + " available.  Additionally, for this event, remote participation " + remote + " possible.  Lactation facilities " + lactation + " also available.  If you need one of the accommodations listed, please contact " + name + " (" + email + "), who will make sure that the accommodation(s) you require are fully in place and provide you with complete details and updates about the arrangements.")
-print(statement)
+print("\nWe have made an effort to make our event as accessible to chronically ill or disabled colleagues as possible.  For this event, physical access " + mobility + " available, accommodations for hearing impairments " + hearing + " available, and accommodations for visually impaired colleagues " + vision + " available.  Additionally, for this event, remote participation " + remote + " possible.  Lactation facilities " + lactation + " also available.  If you need one of the accommodations listed, please contact " + name + " (" + email + "), who will make sure that the accommodation(s) you require are fully in place and provide you with complete details and updates about the arrangements.")
