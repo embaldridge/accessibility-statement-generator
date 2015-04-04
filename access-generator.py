@@ -3,7 +3,7 @@
 name = raw_input("Please provide the name of the organizer who will be handling accessibility accommodations. ")
 email = raw_input("Please provide an email address for the organizer. ")
 
-print("\nPlease enter True or False for the following statements.")
+raw_input("\nPlease enter True or False for the following statements.")
 # Asks questions regarding accomodations to provide inputs to generate accessibility statement.
 mobility = raw_input("Physical access is available for mobility impaired. ")
 if mobility == True:
@@ -80,8 +80,8 @@ else:
     lactation = 'are not'
     raw_input("Please consider providing lactation facilities for your colleagues who may require such accomodations.")
 
-raw_input("\nThank you for integrating accessibility accomodations into your planning.")
+raw_input("\nThank you for integrating accessibility accomodations into your planning. Please press 'Enter' to generate your accessibility statement.")
 
 # Generate accessibility statement.
 print("\nAccessibility Statement")
-print("\nWe have made an effort to make our event as accessible to chronically ill or disabled colleagues as possible.  For this event, physical access " + mobility + " available, accomodations for hearing impairments " + hearing + " available, and accommodations for visually impaired colleagues " + vision + " available. Additionally, for this event, remote participation " + remote + " possible.  Lactation facilities " + lactation + " also available. If you need one of the accomodations listed, please contact " + name + " (" + email + "), who will make sure that the accomodation(s) you require are fully in place and provide you with complete details and updates about the arrangements.")
+print("\nWe have made an effort to make our event as accessible to chronically ill or disabled colleagues as possible.  For this event, physical access " + mobility + " available, accomodations for hearing impairments " + hearing + " available, and accommodations for visually impaired colleagues " + vision + " available.  Additionally, for this event, remote participation " + remote + " possible.  Lactation facilities " + lactation + " also available.  If you need one of the accomodations listed, please contact " + name + " (" + email + "), who will make sure that the accomodation(s) you require are fully in place and provide you with complete details and updates about the arrangements.")
