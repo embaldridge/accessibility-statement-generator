@@ -82,6 +82,6 @@ else:
 
 # Generate accessibility statement.
 print("Accessibility Statement")
-print("We have made an effort to make our event as accessible to chronic ill or disabled colleagues as possible.  For this event, physical access " + mobility + " available, accomodations for hearing impairments " + hearing + " available, accommodations for visually impaired colleagues " + vision + " available. Additionally, for this event, remote participation " + remote + " possible.  Lactation facilities " + lactation + " available. If you need one of the accomodations listed, please contact " + name + " (" + email + "), who will make sure that the accomodation(s) you require are fully in place and provide you with complete details about the arrangements.")
+print("We have made an effort to make our event as accessible to chronic ill or disabled colleagues as possible.  For this event, physical access " + mobility + " available, accomodations for hearing impairments " + hearing + " available, accommodations for visually impaired colleagues " + vision + " available. Additionally, for this event, remote participation " + remote + " possible.  Lactation facilities " + lactation + " available. If you need one of the accomodations listed, please contact " + name + " (" + email + "), who will make sure that the accomodation(s) you require are fully in place and provide you with complete details and updates about the arrangements.")
     
     
