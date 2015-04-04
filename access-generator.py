@@ -1,42 +1,83 @@
-"""Script to generate a disability/chronic illness statement."""
-name = input("Please provide the name of the organizer who will be handling accessibility accommodations.")
-email = input("Please provide an email address for the organizer.")
+#"""Script to generate a disability/chronic illness statement."""
+#Contact information for organizer
+name = raw_input("Please provide the name of the organizer who will be handling accessibility accommodations. ")
+email = raw_input("Please provide an email address for the organizer. ")
 
 print("Please enter True or False for the following statements.")
 # Asks questions regarding accomodations to provide inputs to generate accessibility statement.
-mobility = input("Physical access is available for mobility impaired. ")
+mobility = raw_input("Physical access is available for mobility impaired. ")
 if mobility == True:
+    mobility = 'is'
+elif mobility == 'true':
+    mobility = 'is'
+elif mobility == 'T':
+    mobility = 'is'
+elif mobility == 't':
+    mobility = 'is'
+elif mobility == 'True':
     mobility = 'is'
 else:
     mobility = 'is not'
     print("Please consider making your events more accessible to mobility impaired colleagues in future.")
 
-hearing = input("Accomodations are available for hearing impaired. ")
+hearing = raw_input("Accomodations are available for hearing impaired. ")
 if hearing == True:
+    hearing = 'are'
+elif hearing == 'true':
+    hearing = 'are'
+elif hearing == 'T':
+    hearing = 'are'
+elif hearing == 't':
+    hearing = 'are'
+elif hearing == 'True':
     hearing = 'are'
 else:
     hearing = 'are not'
     print("Please consider making your events more accessible for your hearing impaired colleagues in future.")
 
-vision = input("Accomodations are available for visually impaired. ")
+vision = raw_input("Accomodations are available for visually impaired. ")
 if vision == True:
+    vision = 'are'
+elif vision == 'true':
+    vision = 'are'
+elif vision == 'T':
+    vision = 'are'
+elif vision == 't':
+    vision = 'are'
+elif vision == 'True':
     vision = 'are'
 else:
     vision = 'are not'
     print("Please consider making your events more accessible for your vision impaired colleagues in future.")
 
-remote = input("Remote participation is available for those who cannot otherwise attend. ")
+remote = raw_input("Remote participation is available for those who cannot otherwise attend. ")
 if remote == True:
+    remote = 'is'
+elif remote == 'true':
+    remote = 'is'
+elif remote == 'T':
+    remote = 'is'
+elif remote == 't':
+    remote = 'is'
+elif remote == 'True':
     remote = 'is'
 else:
     remote = 'is not'
     print("Please consider making your events more accessible for your colleagues who cannot otherwise attend in future.")
     
-lactation = input("Lactation facilities are available. ")
-if remote == True:
-    remote = 'is'
+lactation = raw_input("Lactation facilities are available. ")
+if lactation == True:
+    lactation = 'are'
+elif lactation == 'true':
+    lactation = 'are'
+elif lactation == 'T':
+    lactation = 'are'
+elif lactation == 't':
+    lactation = 'are'
+elif lactation == 'True':
+    lactation = 'are'
 else:
-    remote = 'is not'
+    lactation = 'are not'
     print("Please consider providing lactation facilities for your colleagues who may require such accomodations.")
 
 # Generate accessibility statement.
